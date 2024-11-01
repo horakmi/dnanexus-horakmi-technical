@@ -65,5 +65,4 @@ describe('DNAnexus technical github test', () => {
     cy.get('#repo-delete-proceed-button').click({force: true});
     cy.location('pathname').should('equal', `/${username}`);
   });
-
 })
